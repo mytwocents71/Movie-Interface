@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>app.ts,classes.ts</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="http://bootswatch.com/slate/bootstrap.min.css">
+</head>
+
+<body>
+  <script src='bower_components/jquery/dist/jquery.min.js'></script>
+  <script src='classes.js' charset="utf-8"></script>
+  <script src='app.js' charset="utf-8"></script>
+
+  <div class='form-inline' style="text-align: center">
+    <input id='year' type="text" class='form-control' / />
+    <input id='make' type="text" class='form-control' / />
+    <input id='model' type="text" class='form-control' / />
+    <input onclick="app.createCar()" type='button' name='name' value='submit' />
+  </div>
+  <div class='container'>
+    <table class='table'>
+      <thead>
+        <tr>
+          <th>
+            Year
+          </th>
+          <th>
+            Make
+          </th>
+          <th>
+            Model
+          </th>
+        </tr>
+      </thead>
+      <tbody id='automobile'>
+
+      </tbody>
+    </table>
+  </div>
+
+
+
+</body>
+
+</html>
